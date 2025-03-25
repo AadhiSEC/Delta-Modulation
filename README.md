@@ -1,8 +1,11 @@
 # Delta-Modulation
 ## Aadhithya SV
 ## 212223060001
-## Aim
-## Tools required
+
+## AIM
+To implement Delta Modulation and Demodulation for a sine wave signal, demonstrating encoding, decoding, and signal reconstruction. The goal is to achieve a smooth demodulated output using a **low-pass filter** to minimize distortion.
+## TOOLS REQUIRED
+Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 ## Program
 ```
 import numpy as np
@@ -79,3 +82,4 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/406ae377-160f-40f8-a2e2-6262b7db37dd)
 
 ## Results
+The delta modulation successfully encoded and decoded the sine wave signal. Applying a low-pass filter to the demodulated signal significantly reduced distortion, resulting in a smooth reconstructed waveform that closely resembles the original signal.
